@@ -1,10 +1,20 @@
 body {
-    background-color: white;
+    background-color: lightblue;
     text-align: center;
     font-family: Arial, sans-serif;
+    animation: fadeIn 2s ease-in;
 }
 
 h1 {
     color: black;
     font-size: 30px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
