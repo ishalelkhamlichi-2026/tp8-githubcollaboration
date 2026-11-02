@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Projet GitHub</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
 
-    <h1>Bienvenue dans notre projet GitHub</h1>
-
-</body>
-</html>
+h1 {
+    color: rgb(255, 145, 0);
+    font-size: 45px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
