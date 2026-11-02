@@ -1,7 +1,8 @@
 body {
-    background-color: white;
+    background-color: lightblue;
     text-align: center;
     font-family: Arial, sans-serif;
+    animation: fadeIn 2s ease-in;
 }
 
 h1 {
@@ -9,4 +10,13 @@ h1 {
     font-size: 45px;
     font-family: Georgia, serif;
     text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
